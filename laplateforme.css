@@ -1,0 +1,147 @@
+.image{
+    background-image: url(https://laplateforme.io/wp-content/uploads/2021/07/logo_laplateforme_bleu3.png);
+    padding: 7%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.back{
+    background-image: url(https://laplateforme.io/wp-content/uploads/2022/05/montage-categorie-ia-2-scaled.webp);
+    padding: 7%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 1300px;
+    height: 300px;
+}
+
+.entete{
+    background-color: rgb(255, 183, 48);
+    border-radius: 4px 4px 4px 4px;
+    border-color: goldenrod;
+    justify-content: space-between;      /*met de l'espace entre les pharse*/
+    text-align: center;
+    font-size: 20px;
+    display: flex;                     /*permet de mettre les ligne en horizontal*/
+}
+.intro{
+    text-size-adjust: 80%;
+}
+.titre{
+    color: blue;
+}
+footer{
+    background-color: rgb(67, 74, 80);
+    color: white;
+    column-width: 10px;
+    display: flex;
+    margin: 0 10px;
+    flex: 1;
+}
+footer {
+    display: flex;
+  }
+  
+footer>* {
+    margin: 0 10px;
+    flex: 1;
+  }
+.Interviews{
+    background-color: rgb(255, 183, 48);
+    text-align: center;
+}
+.Inscription{
+color: #ffffff;
+border-width: 0px;
+border-color: blue;
+border-radius: 5px;
+text-align: center;
+letter-spacing: 0px;
+padding:0;
+font-size: 18px;
+font-weight: 700;
+padding: 5px 1em 0 2em;
+text-transform: uppercase;
+background-color: blue;
+
+}
+
+.colonnes {
+    display: flex;
+  }
+  
+.colonnes>* {
+    margin: 0 10px;
+    flex: 1;
+    animation: 2s linear 0.1s 1 running slidein;
+    animation-name: slidein;
+  }
+
+@keyframes slidein {
+    from {
+      transform: translate(12px, 50%);
+    }
+  
+    to {
+      transform: rotate(360deg)
+    }
+  }
+
+  .gras{
+    font-weight: bold;
+  }
+
+.back2{
+    justify-content: space-between;      /*met de l'espace entre les pharse*/
+    text-align: center;
+    font-size: 20px;
+    display: flex;  
+}
+.back3{
+    background-color: blue;
+    color: white;
+    margin: 0 10px;
+    display: flex;
+    flex: 1;
+    text-align: center;
+}
+.back4{
+    margin: 0 10px;
+    display: flex;
+    flex: 1;
+    text-align: center; 
+}
+.back5{
+    background-image: url(https://laplateforme.io/wp-content/uploads/2022/05/montage-categorie-cybersecu-scaled.webp);
+    padding: 7%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 1300px;
+    height: 300px;
+}
+.back6{
+    background-image: url(https://laplateforme.io/wp-content/uploads/2022/09/montage-developer-web.webp);
+    padding: 7%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 1300px;
+    height: 300px;
+}
+.back7{
+    background-image: url(https://i0.wp.com/laplateforme.io/wp-content/uploads/2022/05/triptyque-centrale-digital-lab-2.webp?w=1080&ssl=1);
+    padding: 7%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    width: 1300px;
+    height: 300px;
+}
+.back8{
+    display: flex;
+    margin: 0 10px;
+    flex: 1;
+}
+.orange{
+    color: orange;
+}
